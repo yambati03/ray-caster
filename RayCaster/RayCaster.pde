@@ -6,10 +6,9 @@ void setup() {
   size(800, 800);
   
   //inner walls
-  walls.add(new Wall(200, 200, 200, 600));
-  walls.add(new Wall(200, 600, 600, 600));
-  walls.add(new Wall(600, 600, 600, 200));
-  walls.add(new Wall(600, 200, 200, 200));
+  walls.add(new Wall(100, 100, 300, 300));
+  walls.add(new Wall(100, 700, 400, 500));
+  walls.add(new Wall(500, 200, 600, 500));
   
   //outer walls
   walls.add(new Wall(-1, -1, 800, 0));
